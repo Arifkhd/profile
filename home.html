@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arif Khan | Data Scientist</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Arif <span>Khan</span></h1>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#certifications" onclick="closeMenu()">Certifications</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+            <a href="assets/Arif_Khan_Data_Scientist.pdf" class="resume-btn" target="_blank">Resume</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hi, I'm <span>Arif Khan</span></h2>
+            <h3>Data Scientist | AI &amp; ML Enthusiast</h3>
+            <p>I transform complex data into actionable insights through Machine Learning, Deep Learning, and NLP.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-img">
+            <img src="assets/images/Arif_image.jpg" alt="Arif Khan" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate Data Scientist with expertise in building predictive models, analyzing trends, and developing AI-driven solutions. 
+            Currently pursuing my MSc in Computer Science, I specialize in Machine Learning, NLP, and Deep Learning applications.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills &amp; Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><img src="assets/images/icons8-python-50.png" class="icon" alt="Python"> Python</div>
+            <div class="skill-card"><img src="assets/images/icons8-sql-48.png" class="icon" alt="SQL"> SQL</div>
+            <div class="skill-card"><img src="assets/images/icons8-r-project-50.png" class="icon" alt="R"> R Programming</div>
+            <div class="skill-card"><img src="assets/images/pandas.jpeg" class="icon" alt="Pandas"> Pandas</div>
+            <div class="skill-card"><img src="assets/images/icons8-numpy-48.png" class="icon" alt="NumPy"> NumPy</div>
+            <div class="skill-card"><img src="assets/images/OIP (1).jpeg" class="icon" alt="Keras"> Keras</div>
+            <div class="skill-card"><img src="assets/images/OIP.jpeg" class="icon" alt="Scikit-learn"> Scikit-learn</div>
+            <div class="skill-card"><img src="assets/images/OIP (2).jpeg" class="icon" alt="TensorFlow"> TensorFlow</div>
+            <div class="skill-card"><img src="assets/images/OIP (3).jpeg" class="icon" alt="Matplotlib"> Matplotlib</div>
+            <div class="skill-card"><img src="assets/images/OIP (6).jpeg" class="icon" alt="Seaborn"> Seaborn</div>
+            <div class="skill-card"><img src="assets/images/OIP (7).jpeg" class="icon" alt="Tableau"> Tableau</div>
+            <div class="skill-card"><img src="assets/images/OIP (5).jpeg" class="icon" alt="Excel"> Excel</div>
+            <div class="skill-card"><img src="assets/images/icons8-power-bi-2021-48.png" class="icon" alt="Power BI"> Power BI</div>
+            <div class="skill-card"><img src="assets/images/OIP (8).jpeg" class="icon" alt="Data Visualization"> Data Visualization</div>
+            <div class="skill-card"><img src="assets/images/OIP (9).jpeg" class="icon" alt="Machine Learning"> Machine Learning</div>
+            <div class="skill-card"><img src="assets/images/OIP (10).jpeg" class="icon" alt="Deep Learning"> Deep Learning</div>
+            <div class="skill-card"><img src="assets/images/OIP (11).jpeg" class="icon" alt="AI"> Artificial Intelligence</div>
+            <div class="skill-card"><img src="assets/images/OIP (12).jpeg" class="icon" alt="MLOps"> MLOps</div>
+            <div class="skill-card"><img src="assets/images/OIP (13).jpeg" class="icon" alt="LLM"> LLM</div>
+            <div class="skill-card"><img src="assets/images/OIP (14).jpeg" class="icon" alt="NLP"> NLP</div>
+            <div class="skill-card"><img src="assets/images/OIP (15).jpeg" class="icon" alt="Statistics"> Statistics</div>
+            <div class="skill-card"><img src="assets/images/OIP (16).jpeg" class="icon" alt="Time Series"> Time Series Analysis</div>
+            <div class="skill-card"><img src="assets/images/OIP (17).jpeg" class="icon" alt="Forecasting"> Forecasting Analysis</div>
+            <div class="skill-card"><img src="assets/images/OIP (18).jpeg" class="icon" alt="Data Analytics"> Data Analytics</div>
+            <div class="skill-card"><img src="assets/images/OIP (19).jpeg" class="icon" alt="Git"> Git</div>
+            <div class="skill-card"><img src="assets/images/OIF.jpeg" class="icon" alt="AWS"> AWS Basics</div>
+            <div class="skill-card"><img src="assets/images/OIP (20).jpeg" class="icon" alt="PySpark"> PySpark</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>House Price Prediction</h3>
+                <p>
+                    <strong>Key Features:</strong> Increased accuracy by 15% (from 80% to 95%)<br>
+                    Built a machine learning model to estimate house prices based on location, size, and amenities.
+                </p>
+                <p>
+                    Preprocessing, feature engineering, and training using Linear Regression, Random Forest, and XGBoost.<br>
+                    Evaluation metrics: RMSE, R² Score.<br>
+                    <a href="https://housepriceprediction-gcrgyxtdz2fabgrek3fl7x.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Drug Prediction Using NLP</h3>
+                <p>
+                    <strong>Key Features:</strong> Achieved high accuracy (&gt;92%) in condition classification<br>
+                    NLP-based model to classify medical conditions like Depression, High Blood Pressure, and Type 2 Diabetes from patient reviews.
+                </p>
+                <p>
+                    Preprocessing: Tokenization, stop-word removal, TF-IDF vectorization.<br>
+                    Models: Logistic Regression, Random Forest.<br>
+                    <a href="https://nlp-drug-prediction-mg8dzvjkalhhuhnua4qixb.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Car Price Prediction</h3>
+                <p>
+                    <strong>Key Features:</strong> Improved model performance by 12% (RMSE reduction)<br>
+                    Predict car selling price using features like brand, model, year, fuel type, transmission, and more.
+                </p>
+                <p>
+                    Preprocessing, feature engineering, and model training with Linear Regression, Random Forest, XGBoost.<br>
+                    Evaluation: RMSE, R² Score.<br>
+                    <a href="https://car-price-prediction-5eehqu4djqjywezubspz3e.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Insurance Claim Prediction</h3>
+                <p>
+                    <strong>Key Features:</strong> Improved prediction accuracy for insurance claims<br>
+                    Machine learning model to predict insurance claim likelihood using customer and policy data.
+                </p>
+                <p>
+                    Preprocessing, feature engineering, and model training with Linear Regression, Random Forest, XGBoost.<br>
+                    Evaluation: RMSE, R² Score.<br>
+                    <a href="https://insurance-claim-anpx23fdufhumgfbokqtmc.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <h2>📜 Certifications</h2>
+        <div class="certifications-container">
+            <div class="cert-card">
+                <h3>Data Science Certificate</h3>
+                <p><strong>Issued by:</strong> ExcelR | <strong>Date:</strong> August 07, 2025</p>
+                <p>Completed a hands-on job simulation focused on data analytics, data visualization, storytelling, and business presentation.</p>
+                <a href="https://image2url.com/images/1761373938711-95a514f0-244c-4a1a-bbbe-e67f86e96bd5.jpg" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Accenture North America – Data Analytics and Visualization Job Simulation</h3>
+                <p><strong>Issued by:</strong> Forage | <strong>Date:</strong> February 15th, 2025</p>
+                <p>Completed a hands-on job simulation focused on data analytics, data visualization, storytelling, and business presentation.</p>
+                <a href="https://pdflink.to/edd38819/" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>AI Variant – Data Science Internship Certificate</h3>
+                <p><strong>Issued by:</strong> AI Variant | <strong>Date:</strong> March 06th, 2025</p>
+                <p>Completed internship involving data preprocessing, model building, and deployment using Python, scikit-learn, and TensorFlow.</p>
+                <a href="https://image2url.com/images/1761372517341-51415115-2a7f-494e-a241-807d86d7f50b.png" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Deep Learning Beginner</h3>
+                <p><strong>Issued by:</strong> Simplilearn | <strong>Date:</strong> February 13th, 2025</p>
+                <p>Learned supervised and unsupervised learning algorithms, neural networks, and model evaluation techniques.</p>
+                <a href="https://simpli-web.app.link/e/oYqplFAkKXb" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Power BI Job Simulation</h3>
+                <p><strong>Issued by:</strong> Forage | <strong>Date:</strong> February 25th, 2025</p>
+                <p>Learned data analysis, visualization, and automation using Pandas, NumPy, and Matplotlib.</p>
+                <a href="https://pdflink.to/694dca4e/" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+            </div>
+
+            <div class="cert-card">
+                <h3>Generative AI Course With Langchain and Huggingface</h3>
+                <p><strong>Issued by:</strong> Udemy | <strong>Date:</strong> May 7, 2025</p>
+                <p>Learned data analysis, visualization, and automation using Pandas, NumPy, and Matplotlib.</p>
+                <a href="https://pdflink.to/fd434073/" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>Let's collaborate on impactful Data Science projects or research initiatives.</p>
+        <div class="contact-links">
+            <a href="mailto:arifkhan50636@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/icons8-email-48.png" alt="Email Icon" class="icon"> Email
+            </a>
+            <a href="https://linkedin.com/in/arif-khan" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/icons8-linkedin-48.png" alt="LinkedIn Icon" class="icon"> LinkedIn
+            </a>
+            <a href="https://github.com/Arifkhd" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/icons8-github-50.png" alt="GitHub Icon" class="icon"> GitHub
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Arif Khan | Data Scientist</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.remove('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navbar = document.querySelector('.navbar');
+            const navLinks = document.getElementById('navLinks');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (!navbar.contains(event.target) && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+  </body>
+</html>
